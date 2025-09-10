@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dice Simulator 🎲</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎲 Dice Simulator</h1>
+
+  <label>Number of Dice:</label>
+  <input type="number" id="numDice" value="1" min="1" max="10">
+
+  <label>Sides:</label>
+  <input type="number" id="sides" value="6" min="2" max="100">
+
+  <button onclick="rollDice()">Roll Dice</button>
+
+  <div id="result" class="result">Click to roll...</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
