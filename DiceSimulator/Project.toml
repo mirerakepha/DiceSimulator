@@ -1,0 +1,4 @@
+name = "DiceSimulator"
+uuid = "bf1c7753-625c-4bb5-a7a2-1cbbf440c169"
+authors = ["mirerakepha <kephamirera16@gmail.com>"]
+version = "0.1.0"
